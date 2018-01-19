@@ -20,6 +20,7 @@ modules:
          url: ${default-url}
    requires:
     - name: hdi_db
+    - name: my-uaa
     
 resources:
  - name: hdi_db
@@ -29,3 +30,5 @@ resources:
    properties:
       hdi-container-name: ${service-name}
    type: com.sap.xs.hdi-container
+ - name: my-uaa
+   type: com.sap.xs.uaa

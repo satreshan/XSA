@@ -1,6 +1,6 @@
 {
 	"role":{
-		"name": "myapp.db::default_access_role",
+		"name": "default_access_role",
 		"schema_roles": [{
 		 "names": ["myapp.db::default_role_ext"]
 		}] 
