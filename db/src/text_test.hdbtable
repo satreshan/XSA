@@ -1,0 +1,6 @@
+COLUMN TABLE "myapp.db::text_test2" 
+(
+   "ID" INTEGER, 
+   "Document" VARCHAR(200),
+   PRIMARY KEY ("ID") 
+)

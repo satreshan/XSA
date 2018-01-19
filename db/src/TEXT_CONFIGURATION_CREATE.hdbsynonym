@@ -1,0 +1,8 @@
+{
+  "myapp.db::TEXT_CONFIGURATION_CREATE": {
+    "target": {
+      "schema": "SYS",
+      "object": "TEXT_CONFIGURATION_CREATE"
+    }
+  }
+}

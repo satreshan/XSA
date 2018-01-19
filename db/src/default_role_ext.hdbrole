@@ -1,0 +1,18 @@
+{
+"role": {
+"name": "myapp.db::default_role_ext",
+"schema_privileges": [
+{
+"privileges": [
+"SELECT METADATA",
+"SELECT CDS METADATA",
+"CREATE ANY",
+"SELECT",
+"UPDATE",
+"DELETE",
+"EXECUTE"
+]
+}
+]
+}
+}

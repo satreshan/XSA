@@ -1,0 +1,19 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "myapp.db::text_test2",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "myapp.db::text_test_data.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+                    "ID",
+                    "Document"
+                ]
+            }
+        }
+    ]
+}

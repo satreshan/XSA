@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary xmlns="http://www.sap.com/ta/4.0">
+   <entity_category name="Event">
+      <entity_name standard_form="D-KOM">
+            <variant name ="Dkom"/>
+            <variant name ="D-kom"/>
+            <variant name ="d-kom"/>
+            <variant name ="dkom"/>
+      </entity_name>
+      <entity_name standard_form="TechEd">
+            <variant name ="TECHED"/>
+      </entity_name>
+      <entity_name standard_form="TeckFest">
+            <variant name ="TECHFEST"/>
+            <variant name ="Tech-Fest"/>
+            <variant name ="Technology Festival"/>
+      </entity_name>
+     </entity_category>
+</dictionary>

@@ -1,0 +1,12 @@
+{
+  "role": {
+    "name": "myapp.db::external_role",
+    "object_privileges": [
+      {
+        "name": "myapp.db::text_test2",
+        "type": "TABLE",
+        "privileges": [ "SELECT" ]
+      }
+    ]
+  }
+}

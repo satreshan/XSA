@@ -1,0 +1,31 @@
+ID: myapp
+_schema-version: '2.0'
+description: My first application in XSA
+version: 0.0.1
+
+modules:
+ - name: db
+   type: hdb
+   path: db
+   requires:
+    - name: hdi_db
+
+
+ - name: xsjs
+   type: nodejs
+   path: xsjs
+   provides:
+    - name: xsjs_api
+      properties:
+         url: ${default-url}
+   requires:
+    - name: hdi_db
+    
+resources:
+ - name: hdi_db
+   parameters:
+      config:
+         schema: TA_CUSTOM
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container

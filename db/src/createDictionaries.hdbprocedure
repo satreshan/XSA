@@ -1,0 +1,10 @@
+PROCEDURE "myapp.db::createDictionaries" (IN schema_name NVARCHAR(30), IN dictionary_name NVARCHAR(30), IN dictionary_content NVARCHAR(10000))
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   AS
+BEGIN
+   /*************************************
+       Create Dictionary in Schema schema_name with name configuration_name
+   *************************************/
+   CALL "myapp.db::TEXT_CONFIGURATION_CREATE"(schema_name, dictionary_name, 'hdbtextdict',dictionary_content); 
+END
